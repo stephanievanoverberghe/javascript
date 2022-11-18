@@ -6,10 +6,10 @@ console.log(message);
 
 // Exercice 2
 
-let firstPart = 'Première partie d\'une phrase ';
-let lastPart = 'dernière partie de la même phrase';
+let firstPart = 'Première partie d\'une phrase,';
+let lastPart = 'dernière partie de la même phrase.';
 
-console.log(firstPart + lastPart);
+console.log(firstPart+' '+lastPart);
 
 // Exercice 3
 
@@ -17,7 +17,9 @@ let firstname = 'Denis';
 let age = 25;
 let city = 'Amiens';
 
-console.log(`Bonjour, je m\'appelle ${firstname}, j\ai ${age} ans et j\habite ${city}`);
+console.log(`Bonjour, je m'appelle ${firstname}, j'ai ${age} ans et j'habite ${city}.`);
+// littéraux de gabarits
+
 
 // Exercice 4
 
