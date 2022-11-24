@@ -70,4 +70,7 @@ break;
 // Exercice 5
 
 let value = 3;
-    console.log('La valeur entrée est une chaîne')
+    console.log(`La valeur entrée est un ${typeof (value)}.`);
+
+let value2 = 'salut';
+    console.log(`La valeur entrée est un ${typeof (value2)}.`); 
