@@ -8,7 +8,7 @@ body{
     
 }
 
-h1, p{
+h1, p, h2{
     color: white;
 }
 
@@ -24,4 +24,8 @@ h1, p{
 
 nav{
     background-color: rgb(29, 0, 31);
+}
+
+form{
+    color:white;
 }
