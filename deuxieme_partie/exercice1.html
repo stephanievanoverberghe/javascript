@@ -64,15 +64,36 @@
                     </div>
                 </div>               
             </section>
-            <section>
-                <h2>Identification</h2>
-                <form action="" method="post" id="form">
-                    <label for="pass">Votre mot de passe</label>
-                    <input type="password" name="pass" id="passOne" placeholder="Insérez votre mot de passe">
-                    <label for="pass">Confirmation de mot de passe</label>
-                    <input type="password" name="passtwo" id="passTwo" placeholder="Insérez votre mot de passe">
-                    <input type="submit" value="Envoyer" id="envoyer">
-                </form>
+            <section class="my-5">
+                <h2 class="text-center mb-4">Identification</h2>
+                <div class="row gy-4 gy-md-0" > 
+
+                    <!-- Formulaire -->
+
+                    <form action="" method="post" id="form">
+                        <div class="input-group input-group-lg"></div>
+                            
+                        <!-- Mot de passe -->
+
+                            <div class="col-12">
+                                <label for="pass"> Mot de passe</label>
+                                <input class=" form-control mb-4" type="password" name="pass" id="passOne" placeholder="Insérez votre mot de passe" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            </div>
+
+                        <!-- Confirmation mot de passe -->
+
+                            <div class="col-12">
+                                <label for="confirm_pass">Confirmation du mot de passe</label>
+                                <input class=" form-control mb-4" type="password" name="pass" id="passTwo" placeholder="Insérez votre mot de passe" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            
+                        <!-- Bouton de confirmation -->
+                            
+                                <div class="col-12">
+                                <button type="submit" class="btn btn-warning" id="envoyer">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </section>
         </div>
 
