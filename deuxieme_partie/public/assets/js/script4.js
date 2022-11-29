@@ -28,7 +28,7 @@ let getAverage = (event) => {
         message = 'Excellent';
     } 
     // console.log(message);
-    result.textContent = 'Votre moyenne est :' + ' ' + average;
+    result.textContent = 'Votre moyenne est :' + ' ' + average + ' ' + message;
     
 }
     

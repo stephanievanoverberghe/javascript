@@ -1,0 +1,21 @@
+#card{
+    background-color: rgb(89, 89, 236);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.card-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    
+    
+}
+
+.card-title{
+    font-size: 2em;
+}
+
+.card-text{
+    font-size: 1.1em;
+}
